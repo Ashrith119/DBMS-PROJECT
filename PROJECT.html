@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <title>DBMS Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="div-class">
+            <p><input type="text" placeholder="Search" width="30px"></p>
+        </div>
+        <div class="main">
+            <div class="logo">
+                <img src="logo.jpeg" alt="">
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <a href="#" class="button" id="button">LOGIN</a>
+        </div>
+        <div class="tp-image">
+            <img src="tp-image.png" alt="TP">
+        </div>
+        <div class="button1">
+            <a href="explore.html" class="btn">Explore</a>
+        </div>
+    </header>
+    <div class="popup">
+        <div class="popup-content">
+            <img src="cancel.jpg" alt="Close" class="close">
+            <input type="text" class="user" placeholder="Username">
+            <input type="password" class="password" placeholder="Password">
+            <a href="#" class="button">LOGIN</a>
+        </div>
+    </div>
+    <div class="box"></div>
+    <script>
+        document.getElementById("button").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "flex";
+        })
+        document.querySelector(".close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        })
+    </script>
+</body>
+
+</html>

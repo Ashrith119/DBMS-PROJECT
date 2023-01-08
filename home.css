@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../placement.png);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    line-height: 10px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    width: 130px;
+    height: auto;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.main {
+    max-width: 1200px;
+    height: auto;
+}
+
+.div-class p input {
+    position: relative;
+    float: right;
+    width: 220px;
+    margin-right: 200px;
+    margin-top: 23px;
+    height: auto;
+    display: flex;
+    border-radius: 50px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.text {
+    position: absolute;
+    left: 43%;
+    top: 5%;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+
+}
+
+.button:hover {
+    background-color: blueviolet;
+    color: black;
+    /* transition: 0.6s ease; */
+
+}
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.popup-content {
+    height: 380px;
+    width: 420px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aqua ;
+    position: relative;
+    box-shadow: 0 0 5px #333;
+
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border-radius: 1px solid grey;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.popup-content .user  {
+    margin: 45px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border-radius: 1px solid grey;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    text-align: center;
+    transition: 0.25s;
+}
+.popup-content .password  {
+    margin: 45px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border-radius: 1px solid grey;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    text-align: center;
+    transition: 0.25s;
+}
+.close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* .box1{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top:850px;
+    max-height: 1000px;
+}
+.box2{
+    position: absolute;
+    color:yellow;
+    left: 500px;
+    top: 75%;
+} */
+.tp-image img{
+    width: 517px;
+    height: 500px;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    opacity: 70%;
+}
+.button1{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: bottom;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    font-family: "Roboto",sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #1E90FF;
+    width: 250px;
+    margin-top: 900px;
+    padding: 20;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+.btn:hover,.btn:focus,.btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+}
